@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    background-color: #c1e7f3;
+}
+
+.titulo {
+    padding: 4% 0% 0% 4%;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    margin: 4%;
+    justify-content: space-between;
+}
+
+.text-area {
+    border: 1px;
+    border-radius: 4%;
+    font-size: 30px;
+    background-color: #c1e7f3;
+    
+}
+
+.texto__ajuda {
+    font-size: 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.botoes__botao {
+    padding: 3%;
+    font-size: 30px;
+    background-color: #ffffff;
+}
+
+.botoes__botao:hover {
+    background-color: #94d9ee;
+}
+
+.mensagem {
+    border: 1px;
+    border-radius: 4%;
+    font-size: 30px;
+ }
+
+.rodape {
+    background-color: #94d9ee;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 2% 1% 0% 0%;
+}

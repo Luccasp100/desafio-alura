@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">Decodificador</h1>
+    </header>
+
+    <main>
+
+        <section class="escrever">
+            <textarea class="text-area" cols="40" rows="10" placeholder="Digite o texto aqui..."></textarea>
+            <p class="texto__ajuda">Apenas letras minúsculas e sem acento.</p>
+
+            <div class="botoes">
+                <button class="botoes__botao" onclick="botaoEncriptar()">Criptografar</button>
+                <button class="botoes__botao" onclick="botaoDescriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea name="texto" id="texto" class="mensagem" cols="20" rows="10"></textarea>
+
+            <div>
+                <button class="botoes__botao" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Site desenvolvido por Luccas Fernandes</p>
+        <a class="link" href="https://www.instagram.com/luccasp100/" target="_blank" alt="link Instagram">Instagram</a>
+        <a class="link" href="https://github.com/Luccasp100" target="_blank" alt="link Github">Github</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
